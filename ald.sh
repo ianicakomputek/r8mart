@@ -1,5 +1,0 @@
-#!/bin/sh
-cd /etc/openvpn/
-rm *.conf
-wget --no-check-certificate https://raw.githubusercontent.com/ianicakomputek/r8mart/refs/heads/main/aldkas2_1.conf
-/etc/rc.d/rc.openvpn restart
